@@ -10,4 +10,7 @@ trigger AccountTrigger on Account (before insert) {
         system.debug('Hello world');
         //System.debug(Trigger.newMap.keySet());
 
+
+        System.debug('For updated Code Acess ');
+        System.debug('For updated Code Acess '+Trigger.new);
 }}
